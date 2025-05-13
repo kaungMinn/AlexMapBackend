@@ -1,5 +1,5 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyAH7XBkqybpWLQnlE0GgMvkgtAzIao8vJE",
+  apiKey: process.env.FIRE_BASE_API_KEY,
   authDomain: "imageuploadtesting-45261.firebaseapp.com",
   projectId: "imageuploadtesting-45261",
   storageBucket: "imageuploadtesting-45261.appspot.com",

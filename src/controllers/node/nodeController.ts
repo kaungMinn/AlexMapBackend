@@ -52,7 +52,6 @@ const create = async (req: Request, res: Response, next: NextFunction) => {
         const nodeData = validation.data;
         const {jwt: refreshToken} = req.cookies;
 
-        console.log("refreshToken", refreshToken)
 
         if(!refreshToken){
             res.status(StatusCodes.FORBIDDEN).json(responseData('error', 'Refresh token removed.'));
@@ -85,7 +84,7 @@ const create = async (req: Request, res: Response, next: NextFunction) => {
         //Image upload
         const dateTime = dateUtils.currentDateTime();
 
-        console.log("file", req.file)
+
 
         const storageRef = ref(
             storage,
@@ -143,7 +142,6 @@ const update  = async (req: Request, res: Response, next: NextFunction) => {
         //Image upload
         const dateTime = dateUtils.currentDateTime();
 
-        console.log("file", req.file)
 
         const storageRef = ref(
             storage,
