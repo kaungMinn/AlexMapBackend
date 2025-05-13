@@ -1,1 +1,1 @@
-export const allowedOrigins: (string | undefined) [] = ["http://localhost:3000", "http://localhost:5173", "http://localhost:6000", "https://alex-map-frontend.vercel.app"]
+export const allowedOrigins: (string | undefined) [] = ["http://localhost:3000", "http://localhost:5173", "http://localhost:6000", "https://alex-map-frontend.vercel.app", "http://192.168.28.168:5173/"]
