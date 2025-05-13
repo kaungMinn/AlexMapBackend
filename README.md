@@ -12,4 +12,5 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 change .env.txt to .env
 npm install
+npm install -g nodemon
 npm run dev
