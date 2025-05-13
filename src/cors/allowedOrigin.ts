@@ -1,0 +1,1 @@
+export const allowedOrigins: (string | undefined) [] = ["http://localhost:3000", "http://localhost:5173", "http://localhost:6000"]
