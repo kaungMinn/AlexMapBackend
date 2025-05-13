@@ -10,6 +10,6 @@
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-change Example.env to .env
+change .env.txt to .env
 npm install
 npm run dev
